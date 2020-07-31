@@ -2,12 +2,16 @@
     <head>
         <title>Welcome!</title>
         <link rel="stylesheet" type="text/css" href="/static/css/style.css?q={{time}}">
+        
     </head>
     <body>
+        <form method="post" action="/index">
+                    <input type="submit" value="Go back to the home page"/>
+        </form>
         <div class="card" style="width: 200px;">
             <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/9/9/0/FNK_the-best-biryani_H.JPG.rend.hgtvcom.826.620.suffix/1568143107638.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Chiken Biryani - 100 g</h5>
+                <h4 class="card-title">Chiken Biryani - 100 g</h5>
                 <ul class="card-text">
                     <li>Calories: 140</li>
                     <li>Carbs: 18.6 g</li>
@@ -18,13 +22,12 @@
                     <li>Sodium: 298  mg</li>
                     <li>Cholesterol: 17 mg</li>
                 </ul>
-                <a href="#" class="btn btn-primary">Home</a>
             </div>
             </div>
         <div class="card" >
             <img src="https://stuffmyboyfriendtellsme.files.wordpress.com/2013/08/samosa1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Samosa</h5>
+                <h4 class="card-title">Samosa</h5>
                 <ul class="card-text">
                     <li>Calories: 308</li>
                     <li>Carbs: 32.2 g</li>
@@ -35,15 +38,13 @@
                     <li>Sodium:  819 mg</li>
                     <li>Cholesterol: 9 mg</li>
                 </ul>
-                <form method="post" action="/index">
-                    <input type="submit" value="Go back to the home page"/>
-                </form>
+                
             </div>
             </div>
         <div class="card" style="width: 200px;">
-            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/9/DV3016_masala-dosa_s4x3.jpg.rend.hgtvcom.826.620.suffix/1570635680579.jpeg" class="card-img-top" alt="...">
+            <img src="https://food.fnr.sndimg.com/content/dam/images/food/fullset/2019/10/9/DV3016_masala-dosa_s4x3.jpg.rend.hgtvcom.826.620.suffix/1570635680579.jpeg" class="card-img-bot" alt="...">
             <div class="card-body">
-                <h5 class="card-title">Masala Dosa</h5>
+                <h4 class="card-title">Masala Dosa</h5>
                 <ul class="card-text">
                     <li>Calories: 489</li>
                     <li>Carbs: 82.3 g</li>
@@ -54,9 +55,11 @@
                     <li>Sodium:  884 mg</li>
                     <li>Cholesterol: 0 mg</li>
                 </ul>
-                <a href="#" class="btn btn-primary">Home</a>
             </div>
             </div>
               
     </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>

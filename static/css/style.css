@@ -2,11 +2,19 @@
     width: 120px;
     height: 120px;
     float: left;
-    margin: 3px;
-    padding: 3px;
-    border: 10px purple;
+    margin: 75px;
+    padding: 75px;
+    border-color: purple;
 }
 img {
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
 }
+
+body {
+  background-color: peachpuff;
+}
+
+
+
+
